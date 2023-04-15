@@ -1,14 +1,14 @@
-const SKETCH_PADDING = 8;
-const SKETCH_BACKGROUND_COLOR = 32;
+const SKETCH_PADDING = 16;
+const SKETCH_BACKGROUND_COLOR = 24;
 
-const CELL_SIZE = 16;
+const CELL_SIZE = 32;
 const CELL_MARGIN = CELL_SIZE / 4;
-const CELL_BORDER_RADIUS = CELL_SIZE / 8;
+const CELL_BORDER_RADIUS = CELL_SIZE / 16;
 const CELL_PIPE_WIDTH = CELL_SIZE / 4;
-const CELL_PIPE_COLOR = 'rgba(255, 215, 0, 1)';
-const CELL_BORDER_COLOR = 64;
-const CELL_BACKGROUND_COLOR = 48;
-const CELL_HIGHLIGHT_BACKGROUND_COLOR = 72;
+const CELL_PIPE_COLOR = 128;
+const CELL_BORDER_COLOR = 48;
+const CELL_BACKGROUND_COLOR = 32;
+const CELL_HIGHLIGHT_BACKGROUND_COLOR = 64;
 
 const CELL_TYPE_NONE = -1;
 const CELL_TYPE_EMPTY = 0;
@@ -17,8 +17,8 @@ const CELL_TYPE_EAST = 2;
 const CELL_TYPE_SOUTH = 3;
 const CELL_TYPE_WEST = 4;
 
-const cols = 64;
-const rows = 32;
+const cols = 32;
+const rows = 16;
 
 let autorun = false;
 let cells = [];
