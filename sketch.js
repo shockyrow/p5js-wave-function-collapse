@@ -277,6 +277,10 @@ function drawCell(cell, index) {
 
   rect(x, y, CELL_SIZE, CELL_SIZE, CELL_BORDER_RADIUS);
 
+  // fill('rgba(255, 215, 0, 0.25)');
+  // textSize(10);
+  // text(cell.options.length, x, center_y);
+
   if (cell === null) {
     return;
   }
